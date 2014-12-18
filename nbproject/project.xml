@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <!-- No utilice el personalizador de propiedades de proyectos cuando edite manualmente este archivo. -->
+            <name>recursos</name>
+            <properties>
+                <property name="ant.script">.project</property>
+            </properties>
+            <folders>
+                <source-folder>
+                    <label>CocosSkel</label>
+                    <location>.</location>
+                </source-folder>
+                <source-folder>
+                    <label>CocosSkel</label>
+                    <type>java</type>
+                    <location>.</location>
+                </source-folder>
+                <source-folder>
+                    <label>recursoseducarchile</label>
+                    <type>doc_root</type>
+                    <location>.</location>
+                </source-folder>
+                <source-folder>
+                    <label>recursoseducarchile</label>
+                    <type>web_inf</type>
+                    <location>.</location>
+                </source-folder>
+                <build-folder>
+                    <location>C:\Program Files\Cocos2D JavaScript\src</location>
+                </build-folder>
+            </folders>
+            <ide-actions/>
+            <view>
+                <items>
+                    <source-folder style="tree">
+                        <label>Web Pages</label>
+                        <location>.</location>
+                    </source-folder>
+                    <source-folder style="tree">
+                        <label>WEB-INF Content</label>
+                        <location>.</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>CocosSkel</label>
+                        <location>.</location>
+                    </source-folder>
+                    <source-file>
+                        <location>${ant.script}</location>
+                    </source-file>
+                </items>
+                <context-menu/>
+            </view>
+            <subprojects/>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/2">
+            <compilation-unit>
+                <package-root>.</package-root>
+                <built-to>C:\Program Files\Cocos2D JavaScript\src</built-to>
+                <javadoc-built-to>.</javadoc-built-to>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+        </java-data>
+        <web-data xmlns="http://www.netbeans.org/ns/freeform-project-web/2">
+            <web-module>
+                <doc-root>.</doc-root>
+                <classpath/>
+                <context-path/>
+                <j2ee-spec-level>1.5</j2ee-spec-level>
+                <web-inf>.</web-inf>
+            </web-module>
+        </web-data>
+    </configuration>
+</project>
